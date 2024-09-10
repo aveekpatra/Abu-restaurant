@@ -1,0 +1,2 @@
+
+1. the loading of the preloader has to be slower so that it shows off the nice animation in the start.
