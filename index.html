@@ -43,6 +43,15 @@
     <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
   </head>
 
+  <!-- 
+  - swiper
+    -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+  />
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
   <body id="top">
     <!-- 
     - #PRELOADER
@@ -340,10 +349,10 @@
               width="48"
               height="48"
               alt="booking icon"
-            /> -->
+            /> 
 
             <span class="label-2 text-center span">Book A Table</span>
-          </a>
+          </a> -->
         </section>
 
         <!-- 
@@ -611,7 +620,7 @@
               ever.
             </p>
 
-            <ul class="grid-list">
+            <!-- <ul class="grid-list">
               <li>
                 <div class="service-card">
                   <a href="#" class="has-before hover:shine">
@@ -701,7 +710,7 @@
                   </div>
                 </div>
               </li>
-            </ul>
+            </ul> -->
 
             <img
               src="./assets/images/shape-1.png"
@@ -719,6 +728,50 @@
               alt="shape"
               class="shape shape-2 move-anim"
             />
+          </div>
+          <div class="carousel">
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"
+                alt="orange tree"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"
+                alt="One World Trade"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"
+                alt="drizzle"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg"
+                alt="cat nose"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg"
+                alt="contrail"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg"
+                alt="golden hour"
+              />
+            </div>
+            <div class="carousel-cell">
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg"
+                alt="flight formation"
+              />
+            </div>
           </div>
         </section>
 
@@ -929,9 +982,19 @@
           <div class="container">
             <div class="form reservation-form bg-black-10">
               <form action="" class="form-left">
-                <h2 class="headline-1 text-center">Online Reservation</h2>
+                <h2 class="headline-1 text-center">Visit Us</h2>
 
-                <p class="form-text text-center">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.588376078622!2d14.431767175907837!3d50.0752700143075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b948edd99c1bd%3A0x74ce90a81a11440b!2sJugosl%C3%A1vsk%C3%A1%20599%2F18%2C%20120%2000%20Vinohrady!5e0!3m2!1sen!2scz!4v1726017745314!5m2!1sen!2scz"
+                  width="690"
+                  height="500"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+
+                <!-- <p class="form-text text-center">
                   Booking request
                   <a href="tel:+88123123456" class="link">+88-123-123456</a>
                   or fill out the order form
@@ -1028,7 +1091,7 @@
                   <span class="text text-2" aria-hidden="true"
                     >Book A Table</span
                   >
-                </button>
+                </button> -->
               </form>
 
               <div
@@ -1190,7 +1253,7 @@
         - #EVENT
       -->
 
-        <section class="section event bg-black-10" aria-label="event">
+        <!-- <section class="section event bg-black-10" aria-label="event">
           <div class="container">
             <p class="section-subtitle label-2 text-center">Recent Updates</p>
 
@@ -1298,7 +1361,7 @@
               <span class="text text-2" aria-hidden="true">View Our Blog</span>
             </a>
           </div>
-        </section>
+        </section> -->
       </article>
     </main>
 
