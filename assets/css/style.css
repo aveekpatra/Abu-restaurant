@@ -4,7 +4,7 @@
 
 
 .carousel {
-  background: #000000;
+  background: #0e0d0c;
 }
 
 .carousel-cell {
@@ -2349,6 +2349,7 @@ textarea.input-field {
     bottom: 50px;
     right: 50px;
     transform: scale(1);
+    visibility: collapse;
   }
 
 

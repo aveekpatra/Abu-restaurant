@@ -116,7 +116,7 @@
 
     <header class="header" data-header>
       <div class="container">
-        <a href="#" class="logo">
+        <a href="#top" class="logo" id="logo-main">
           <img src="./favicon.svg" width="160" height="50" alt="Abu - Home" />
         </a>
 
@@ -152,23 +152,23 @@
             </li>
 
             <li class="navbar-item">
-              <a href="#about" class="navbar-link hover-underline">
+              <a href="#gallery" class="navbar-link hover-underline">
                 <div class="separator"></div>
 
-                <span class="span">About Us</span>
+                <span class="span">Gallery</span>
               </a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link hover-underline">
+              <a href="#about-us" class="navbar-link hover-underline">
                 <div class="separator"></div>
 
-                <span class="span">Our Chefs</span>
+                <span class="span">Our Story</span>
               </a>
             </li>
 
             <li class="navbar-item">
-              <a href="#" class="navbar-link hover-underline">
+              <a href="#contact" class="navbar-link hover-underline">
                 <div class="separator"></div>
 
                 <span class="span">Contact</span>
@@ -204,9 +204,9 @@
         </nav>
 
         <a href="#" class="btn btn-secondary">
-          <span class="text text-1">Find A Table</span>
+          <span class="text text-1">Book A Table</span>
 
-          <span class="text text-2" aria-hidden="true">Find A Table</span>
+          <span class="text text-2" aria-hidden="true">Book A Table</span>
         </a>
 
         <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
@@ -343,7 +343,7 @@
             <ion-icon name="chevron-forward"></ion-icon>
           </button>
 
-          <!-- <a href="#" class="hero-btn has-after">
+          <a href="#" class="hero-btn has-after">
             <img
               src="./assets/images/hero-icon.png"
               width="48"
@@ -352,7 +352,7 @@
             /> 
 
             <span class="label-2 text-center span">Book A Table</span>
-          </a> -->
+          </a>
         </section>
 
         <!-- 
@@ -602,17 +602,18 @@
         </section>
 
         <!-- 
-        - #SERVICE
+        - #Gallery
       -->
 
         <section
           class="section service bg-black-10 text-center"
-          aria-label="service"
+          aria-label="gallery"
+          id="gallery"
         >
           <div class="container">
             <p class="section-subtitle label-2">Flavors For Royalty</p>
 
-            <h2 class="headline-1 section-title">Our Galley</h2>
+            <h2 class="headline-1 section-title">Our Gallery</h2>
 
             <p class="section-text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -732,43 +733,43 @@
           <div class="carousel">
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg"
+                src="https://www.saveur.com/uploads/2019/02/08/OM2HKONR4Z6SFP3L6K6N3AQNA4-1024x683.jpg"
                 alt="orange tree"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg"
+                src="https://ik.imagekit.io/munchery/blog/tr:w-768/introduction-to-middle-eastern-home-cooking.jpeg"
                 alt="One World Trade"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg"
+                src="https://media.cnn.com/api/v1/images/stellar/prod/170830170944-middle-eastern-food-baba-ganoush-flickr.jpg?q=w_1600,h_900,x_0,y_0,c_fill/h_447"
                 alt="drizzle"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg"
+                src="https://www.olivetreemenu.com/wp-content/uploads/2023/05//Middle-Eastern-Cuisine-Kent-WA-98030.jpg"
                 alt="cat nose"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg"
+                src="https://palacerest.com/wp-content/uploads/2023/01/51252383312_074fdfd203_b.webp"
                 alt="contrail"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg"
+                src="https://blog.windstarcruises.com/content/uploads/2023/03/Mansaf-Jordan-middle-east-food-blog.jpg"
                 alt="golden hour"
               />
             </div>
             <div class="carousel-cell">
               <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg"
+                src="https://www.sgvtribune.com/wp-content/uploads/2020/05/LDN-L-DINE-MIDDLEEAST-0515-1-1.jpg?w=1024&h=768"
                 alt="flight formation"
               />
             </div>
@@ -782,7 +783,7 @@
         <section
           class="section about text-center"
           aria-labelledby="about-label"
-          id="about"
+          id="about-us"
         >
           <div class="container">
             <div class="about-content">
@@ -1060,10 +1061,10 @@
       </section>
 
         <!-- 
-        - #RESERVATION
+        - #Contact us
       -->
 
-        <section class="reservation">
+        <section class="reservation" id="contact">
           <div class="container">
             <div class="form reservation-form bg-black-10">
               <form action="" class="form-left">
@@ -1423,7 +1424,7 @@
 
             <li>
               <a href="#" class="label-2 footer-link hover-underline"
-                >Our Chefs</a
+                >Our Story</a
               >
             </li>
 
